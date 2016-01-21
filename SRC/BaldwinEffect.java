@@ -29,6 +29,7 @@ public class BaldwinEffect {
         int generation = 0;
         double[] populationStats = Individual.getGenomeProb(inds);
 
+        System.out.println("SEED: " + seed);
         while (!Individual.isFixated(inds)) {
             System.out.println("GENERATION " + generation + "\t\t0 --> " + populationStats[0] + "\t1 --> " + populationStats[1] + "\t? --> " + populationStats[2]);
             HashMap<Individual, Double> largeFitness = new HashMap<Individual, Double>();
