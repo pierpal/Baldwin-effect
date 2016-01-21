@@ -1,4 +1,4 @@
-# Baldwin-effect
+# Baldwin effect simulation experiment
 
 Code to run Hinton and Nowlan's experiment on the Baldwin effect from the paper ["How learning can guide evolution", Complex Systems, 1987](http://www.complex-systems.com/pdf/01-3-6.pdf). To use it, run:
 
